@@ -1,6 +1,7 @@
 ---
 label: landing-page
-hide_body: false
+hide_body: true
+display_field: layout
 fields:
 - name: title
   label: Title
@@ -78,5 +79,10 @@ fields:
   type: text
   hidden: true
   default: home
+- name: __
+  type: text
+  config:
+    required: false
+  label: 标题
 pages:
 - index.md
