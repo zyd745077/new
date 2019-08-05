@@ -46,7 +46,6 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   publish_env:
-  - JEKYLL_ENV=production
   - 3a:d8:d9:e3:b1:7e:b9:0e:ee:83:e2:df:ac:38=47
   preview_output_directory: _site
   output_directory: _site
