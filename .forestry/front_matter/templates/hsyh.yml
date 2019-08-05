@@ -1,0 +1,22 @@
+---
+label: Hsyh
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: list
+  name: tags
+  label: tags
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: banner_image
+  label: banner_image
+- type: text
+  name: sub_heading
+  label: sub_heading
+- type: text
+  name: slug
+  label: slug
